@@ -28,13 +28,13 @@
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer-link:hover,
-.footer-link:focus,
-.footer-link.current {
-    color: var(--link-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus,
+    &__current {
+        color: var(--link-color);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 
 .webstudio-footer {
