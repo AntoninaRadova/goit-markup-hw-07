@@ -1,0 +1,30 @@
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section-activity {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.hero {
+    text-align: center;
+    padding: 200px 0;
+
+    background: var(--footer-color);
+    color: var(--color-text-secondary);
+}
+
+.hero-text {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    max-width: 696px;
+
+    font-size: 44px;
+    line-height: 1.36;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}

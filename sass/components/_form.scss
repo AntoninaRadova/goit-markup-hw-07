@@ -1,0 +1,194 @@
+.form-label {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+    transform: translateY(-50%);
+
+    transition: transform 250ms linear;
+}
+
+.form-input {
+    width: 358px;
+    height: 50px;
+    margin: 0;
+    padding: 15px 15px;
+    /* padding-left: 16px; */
+    font: inherit;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background: var(--footer-color);
+}
+
+.form-right {
+    align-items: center;
+    padding-left: 93px;
+    justify-content: center;
+}
+
+.form-button {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    align-items: center;
+    fill: var(--color-text-secondary);
+    display: inline;
+    margin-left: 12px;
+
+}
+
+.icon-send {
+    display: inline-block;
+    justify-content: center;
+    padding: 3px 28px 3px 10px;
+    fill: var(--color-text-secondary);
+}
+
+.form-send {
+    display: inline-block;
+    align-items: center;
+}
+
+/* form-mail */
+
+textarea {
+    resize: none;
+    outline: none;
+}
+
+.textarea::placeholder {
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+}
+
+.form-mail {
+    /* width: 600px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    height: 581px;
+}
+
+.form-mail-field {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    background: var(--color-text-secondary);
+    border-radius: 4px;
+}
+
+.form-mail-field label {
+    margin-bottom: 4px;
+}
+
+.form-mail-field svg {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    margin: 10px;
+}
+
+.form-mail-field input {
+    border: none;
+    margin: 0;
+    padding: 10px 42px;
+    border: 1px solid var(--text);
+    border-radius: 4px;
+    outline: none;
+    position: relative;
+    display: block;
+}
+
+.form-mail-field:focus::placeholder input {
+    color: var(--link-color);
+    fill: var(--link-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-bottom: 12px;
+    color: #212121;
+}
+
+.comment {
+    padding: 12px;
+    box-sizing: border-box;
+    width: 448px;
+    height: 120px;
+    left: 576px;
+    top: 519px;
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+.policy {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--text);
+    margin-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.policy label {
+    margin-left: 8px;
+}
+
+.policy a {
+    color: var(--link-color);
+}
+
+.form-mail .hero-button {
+    display: block;
+    margin: auto;
+}
+
+.form-send .hero-button {
+    fill: var(--color-text-secondary);
+}
+
+.form-field-input {
+    position: relative;
+}
+
+.form-mail-field:hover input,
+.form-mail-field:focus-within input,
+.form-mail-field:hover textarea,
+.form-mail-field:focus-within textarea {
+    fill: var(--link-color);
+    border: 1px solid var(--link-color);
+    border-radius: 4px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-mail-field:hover svg,
+.form-mail-field:focus-within svg {
+    fill: var(--link-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
