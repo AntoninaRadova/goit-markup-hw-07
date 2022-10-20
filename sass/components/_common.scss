@@ -1,0 +1,26 @@
+body {
+    height: 100%;
+    color: var(--color-text-primary);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    background: var(--color-text-secondary);
+}
+
+img {
+    display: block;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
